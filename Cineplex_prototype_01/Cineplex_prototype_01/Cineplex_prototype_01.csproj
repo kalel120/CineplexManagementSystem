@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11A366B2-5F67-4083-9C4E-1344391F8589}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cineplex_prototype_01</RootNamespace>
+    <AssemblyName>Cineplex_prototype_01</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about_Form.Designer.cs">
+      <DependentUpon>about_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cine_Database01DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cine_Database01DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="cine_Database01DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cine_Database01DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="form_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Admin.Designer.cs">
+      <DependentUpon>form_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_AdminPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_AdminPass.Designer.cs">
+      <DependentUpon>form_AdminPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_appriciate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_appriciate.Designer.cs">
+      <DependentUpon>form_appriciate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_currentState_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_currentState_Admin.Designer.cs">
+      <DependentUpon>form_currentState_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Customer.Designer.cs">
+      <DependentUpon>form_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Hall_arrangement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Hall_arrangement.Designer.cs">
+      <DependentUpon>form_Hall_arrangement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_list.Designer.cs">
+      <DependentUpon>form_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_loginSucs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_loginSucs.Designer.cs">
+      <DependentUpon>form_loginSucs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_login_not_sucs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_login_not_sucs.Designer.cs">
+      <DependentUpon>form_login_not_sucs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Rating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Rating.Designer.cs">
+      <DependentUpon>form_Rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Remarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Remarks.Designer.cs">
+      <DependentUpon>form_Remarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Stuff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Stuff.Designer.cs">
+      <DependentUpon>form_Stuff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_stuff_table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_stuff_table.Designer.cs">
+      <DependentUpon>form_stuff_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_ticket_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_ticket_list.Designer.cs">
+      <DependentUpon>form_ticket_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ticket_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ticket_menu.Designer.cs">
+      <DependentUpon>Form_ticket_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Update_Movie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Update_Movie.Designer.cs">
+      <DependentUpon>form_Update_Movie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_DeleteMovie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_DeleteMovie.Designer.cs">
+      <DependentUpon>form_DeleteMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Tkt_BB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Tkt_BB.Designer.cs">
+      <DependentUpon>form_Tkt_BB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_InsertMovie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_InsertMovie.Designer.cs">
+      <DependentUpon>form_InsertMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_Menu.Designer.cs">
+      <DependentUpon>main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="movie_schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="movie_schedule.Designer.cs">
+      <DependentUpon>movie_schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="about_Form.resx">
+      <DependentUpon>about_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Admin.resx">
+      <DependentUpon>form_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_AdminPass.resx">
+      <DependentUpon>form_AdminPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_appriciate.resx">
+      <DependentUpon>form_appriciate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_currentState_Admin.resx">
+      <DependentUpon>form_currentState_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Customer.resx">
+      <DependentUpon>form_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Hall_arrangement.resx">
+      <DependentUpon>form_Hall_arrangement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_list.resx">
+      <DependentUpon>form_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_loginSucs.resx">
+      <DependentUpon>form_loginSucs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_login_not_sucs.resx">
+      <DependentUpon>form_login_not_sucs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Rating.resx">
+      <DependentUpon>form_Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Remarks.resx">
+      <DependentUpon>form_Remarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Stuff.resx">
+      <DependentUpon>form_Stuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_stuff_table.resx">
+      <DependentUpon>form_stuff_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_ticket_list.resx">
+      <DependentUpon>form_ticket_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ticket_menu.resx">
+      <DependentUpon>Form_ticket_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Update_Movie.resx">
+      <DependentUpon>form_Update_Movie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_DeleteMovie.resx">
+      <DependentUpon>form_DeleteMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Tkt_BB.resx">
+      <DependentUpon>form_Tkt_BB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_InsertMovie.resx">
+      <DependentUpon>form_InsertMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_Menu.resx">
+      <DependentUpon>main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="movie_schedule.resx">
+      <DependentUpon>movie_schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="cine_Database01DataSet.xsc">
+      <DependentUpon>cine_Database01DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cine_Database01DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cine_Database01DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cine_Database01DataSet.xss">
+      <DependentUpon>cine_Database01DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cine_Database01DataSet1.xsc">
+      <DependentUpon>cine_Database01DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="cine_Database01DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cine_Database01DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cine_Database01DataSet1.xss">
+      <DependentUpon>cine_Database01DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cineplexMobile-Playbook-1-spk.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

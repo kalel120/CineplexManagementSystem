@@ -7,13 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 
 namespace Cineplex_prototype_01
 {
 	public partial class form_Admin : Form
 	{
-		
 		public form_Admin()
 		{
 			InitializeComponent ();
@@ -26,45 +25,52 @@ namespace Cineplex_prototype_01
 
 		private void button3_Click( object sender, EventArgs e )
 		{
-			form_Delete_Movie objTS = new form_Delete_Movie ();
-			objTS.Show ();
+			//form_Customer objTS = new form_Customer();
+			//objTS.Show ();
+		}
+
+		private void refButton_Click( object sender, EventArgs e )
+		{
+			form_Refresh objRefrsh = new form_Refresh ();
+			objRefrsh.Show ();
 		}
 
 		private void currentState_Click( object sender, EventArgs e )
 		{
-			form_currentState_Admin objsct = new form_currentState_Admin ();
-			objsct.Show ();
+            string connectionString = @"Data Source=C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\prototype_Database01.sdf";
+
+            SqlConnection connObj = new SqlConnection(connectionString);
+
+           // string objquery = "INSERT INTO t_Student VALUES('" + studentObj.Id + @"','" + studentObj.Name + @"','" + studentObj.DepartmentName + "')";
+
+            SqlCommand objcommadn_01 = new SqlCommand(objquery,connectionString);
+
+                                 
+                                 
+
+                                    
+            
+            
+            
+            
+            
+            
+            
+            
+            currentState_Admin objcst = new currentState_Admin ();
+			objcst.Show ();
 		}
 
 		private void updateMovie_Click( object sender, EventArgs e )
 		{
-			form_Insert_Movie objUM = new form_Insert_Movie ();
+			form_UpdateMovie objUM = new form_UpdateMovie ();
 			objUM.Show ();
 		}
 
 		private void seatArrange_Click( object sender, EventArgs e )
 		{
-			form_Update_Movie objSA = new form_Update_Movie ();
+			form_SeatArrange objSA = new form_SeatArrange ();
 			objSA.Show ();
 		}
-
-		private void button_Stuff_Click( object sender, EventArgs e )
-		{
-			form_Stuff obj_Stuff = new form_Stuff ();
-			obj_Stuff.Show ();
-		}
-
-		private void btn_Hall_arrange_Click( object sender, EventArgs e )
-		{
-			form_Hall_arrangement obj_H_arrng = new form_Hall_arrangement ();
-			obj_H_arrng.Show ();
-		}
-
-		private void button_show_ticket_list_Click( object sender, EventArgs e )
-		{
-			Form_ticket_menu obj_tkt_menu = new Form_ticket_menu ();
-			obj_tkt_menu.Show ();
-		}
-
 	}
 }

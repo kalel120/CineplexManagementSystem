@@ -10,6 +10,11 @@ D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cine
 D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.about_Form.resources
 D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.movie_schedule.resources
 D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Admin.resources
+D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.currentState_Admin.resources
+D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Refresh.resources
+D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_SeatArrange.resources
+D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_TicktSelling.resources
+D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_UpdateMovie.resources
 D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Customer.resources
 D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Tkt_BB.resources
 D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Rating.resources
@@ -21,73 +26,62 @@ D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cine
 D:\Visual Studio Projects\Project Backup\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.exe.config
 D:\Visual Studio Projects\Project Backup\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.exe
 D:\Visual Studio Projects\Project Backup\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.pdb
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Delete_Movie.resources
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Insert_Movie.resources
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Update_Movie.resources
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Stuff.resources
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Stuff_table.resources
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_currentState_Admin.resources
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Hall_arrangement.resources
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_list.resources
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_ticket_list.resources
-D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.Form_ticket_menu.resources
+D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\prototype_Database01.sdf
+D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\EntityFramework.dll
+D:\Visual Studio Projects\Visual Studio 2012\Projects\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\EntityFramework.xml
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.exe.config
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.exe
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.pdb
+C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\prototype_Database01.sdf
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.exe
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.pdb
+C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\EntityFramework.xml
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.about_Form.resources
+C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.currentState_Admin.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Admin.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_AdminPass.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_appriciate.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_currentState_Admin.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Customer.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Hall_arrangement.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_list.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_loginSucs.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_login_not_sucs.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Rating.resources
+C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Refresh.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Remarks.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Stuff.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_stuff_table.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_ticket_list.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.Form_ticket_menu.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Update_Movie.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Delete_Movie.resources
+C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_SeatArrange.resources
+C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_TicktSelling.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Tkt_BB.resources
-C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Insert_Movie.resources
+C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_UpdateMovie.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.main_Menu.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.movie_schedule.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.Properties.Resources.resources
 C:\Users\User\Desktop\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.csproj.GenerateResource.Cache
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.exe.config
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.exe
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.pdb
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.exe
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.pdb
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.csprojResolveAssemblyReference.cache
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.about_Form.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Admin.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_AdminPass.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_appriciate.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_currentState_Admin.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Customer.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Hall_arrangement.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_list.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_loginSucs.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_login_not_sucs.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Rating.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Remarks.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Stuff.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_stuff_table.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_ticket_list.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.Form_ticket_menu.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Update_Movie.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Delete_Movie.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Tkt_BB.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Insert_Movie.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.main_Menu.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.movie_schedule.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.Properties.Resources.resources
-D:\New folder\Cineplex_prototype_01-2\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.csproj.GenerateResource.Cache
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.exe.config
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.exe
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.pdb
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.csprojResolveAssemblyReference.cache
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.about_Form.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.currentState_Admin.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Admin.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_AdminPass.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_appriciate.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Customer.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_loginSucs.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_login_not_sucs.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Rating.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Refresh.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Remarks.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_SeatArrange.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_TicktSelling.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_Tkt_BB.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.form_UpdateMovie.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.main_Menu.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.movie_schedule.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.Properties.Resources.resources
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\obj\Debug\Cineplex_prototype_01.csproj.GenerateResource.Cache
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\prototype_Database01.sdf
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.exe
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\Cineplex_prototype_01.pdb
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\EntityFramework.dll
+C:\TAHSIN\tahsin work files\Database\Cineplex_prototype_01\Cineplex_prototype_01\Cineplex_prototype_01\bin\Debug\EntityFramework.xml

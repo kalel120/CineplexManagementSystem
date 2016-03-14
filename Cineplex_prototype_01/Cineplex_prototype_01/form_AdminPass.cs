@@ -58,6 +58,6 @@ namespace Cineplex_prototype_01
 			string theText02 = objTextBox02.Text;
 
 			dummy3 = theText02;
-		} 
+		}
 	}
 }

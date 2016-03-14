@@ -28,17 +28,9 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.components = new System.ComponentModel.Container();
             this.back2Admin_fromCST = new System.Windows.Forms.Button();
             this.prototype_Database01DataSet1 = new Cineplex_prototype_01.prototype_Database01DataSet1();
-            this.cinema_HallBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.cinema_HallTableAdapter = new Cineplex_prototype_01.prototype_Database01DataSet1TableAdapters.Cinema_HallTableAdapter();
-            this.tableAdapterManager = new Cineplex_prototype_01.prototype_Database01DataSet1TableAdapters.TableAdapterManager();
-            this.movieTableAdapter = new Cineplex_prototype_01.prototype_Database01DataSet1TableAdapters.MovieTableAdapter();
-            this.movieBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.prototype_Database01DataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cinema_HallBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.movieBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // back2Admin_fromCST
@@ -57,36 +49,6 @@
             this.prototype_Database01DataSet1.DataSetName = "prototype_Database01DataSet1";
             this.prototype_Database01DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // cinema_HallBindingSource
-            // 
-            this.cinema_HallBindingSource.DataMember = "Cinema Hall";
-            this.cinema_HallBindingSource.DataSource = this.prototype_Database01DataSet1;
-            // 
-            // cinema_HallTableAdapter
-            // 
-            this.cinema_HallTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.Cinema_HallTableAdapter = this.cinema_HallTableAdapter;
-            this.tableAdapterManager.CustomerTableAdapter = null;
-            this.tableAdapterManager.MovieTableAdapter = this.movieTableAdapter;
-            this.tableAdapterManager.Requests_forTableAdapter = null;
-            this.tableAdapterManager.showsTableAdapter = null;
-            this.tableAdapterManager.StaffTableAdapter = null;
-            this.tableAdapterManager.ticketTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = Cineplex_prototype_01.prototype_Database01DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
-            // movieTableAdapter
-            // 
-            this.movieTableAdapter.ClearBeforeFill = true;
-            // 
-            // movieBindingSource
-            // 
-            this.movieBindingSource.DataMember = "Movie";
-            this.movieBindingSource.DataSource = this.prototype_Database01DataSet1;
-            // 
             // currentState_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -97,8 +59,6 @@
             this.Text = "Current State";
             this.Load += new System.EventHandler(this.currentState_Admin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.prototype_Database01DataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cinema_HallBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.movieBindingSource)).EndInit();
             this.ResumeLayout(false);
 
 		}
@@ -106,11 +66,6 @@
 		#endregion
 
 		private System.Windows.Forms.Button back2Admin_fromCST;
-		private prototype_Database01DataSet1 prototype_Database01DataSet1;
-		private System.Windows.Forms.BindingSource cinema_HallBindingSource;
-		private prototype_Database01DataSet1TableAdapters.Cinema_HallTableAdapter cinema_HallTableAdapter;
-        private prototype_Database01DataSet1TableAdapters.TableAdapterManager tableAdapterManager;
-		private prototype_Database01DataSet1TableAdapters.MovieTableAdapter movieTableAdapter;
-        private System.Windows.Forms.BindingSource movieBindingSource;
+        private prototype_Database01DataSet1 prototype_Database01DataSet1;
 	}
 }

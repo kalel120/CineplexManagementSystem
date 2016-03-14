@@ -11,6 +11,21 @@
     <AssemblyName>Cineplex_prototype_01</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,8 +47,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,15 +73,11 @@
     <Compile Include="about_Form.Designer.cs">
       <DependentUpon>about_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="cine_Database01DataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>cine_Database01DataSet.xsd</DependentUpon>
+    <Compile Include="currentState_Admin.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cine_Database01DataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>cine_Database01DataSet1.xsd</DependentUpon>
+    <Compile Include="currentState_Admin.Designer.cs">
+      <DependentUpon>currentState_Admin.cs</DependentUpon>
     </Compile>
     <Compile Include="form_Admin.cs">
       <SubType>Form</SubType>
@@ -78,29 +97,11 @@
     <Compile Include="form_appriciate.Designer.cs">
       <DependentUpon>form_appriciate.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_currentState_Admin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="form_currentState_Admin.Designer.cs">
-      <DependentUpon>form_currentState_Admin.cs</DependentUpon>
-    </Compile>
     <Compile Include="form_Customer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="form_Customer.Designer.cs">
       <DependentUpon>form_Customer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="form_Hall_arrangement.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="form_Hall_arrangement.Designer.cs">
-      <DependentUpon>form_Hall_arrangement.cs</DependentUpon>
-    </Compile>
-    <Compile Include="form_list.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="form_list.Designer.cs">
-      <DependentUpon>form_list.cs</DependentUpon>
     </Compile>
     <Compile Include="form_loginSucs.cs">
       <SubType>Form</SubType>
@@ -120,47 +121,29 @@
     <Compile Include="form_Rating.Designer.cs">
       <DependentUpon>form_Rating.cs</DependentUpon>
     </Compile>
+    <Compile Include="form_Refresh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Refresh.Designer.cs">
+      <DependentUpon>form_Refresh.cs</DependentUpon>
+    </Compile>
     <Compile Include="form_Remarks.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="form_Remarks.Designer.cs">
       <DependentUpon>form_Remarks.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_Stuff.cs">
+    <Compile Include="form_SeatArrange.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_Stuff.Designer.cs">
-      <DependentUpon>form_Stuff.cs</DependentUpon>
+    <Compile Include="form_SeatArrange.Designer.cs">
+      <DependentUpon>form_SeatArrange.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_stuff_table.cs">
+    <Compile Include="form_TicktSelling.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_stuff_table.Designer.cs">
-      <DependentUpon>form_stuff_table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="form_ticket_list.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="form_ticket_list.Designer.cs">
-      <DependentUpon>form_ticket_list.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_ticket_menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_ticket_menu.Designer.cs">
-      <DependentUpon>Form_ticket_menu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="form_Update_Movie.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="form_Update_Movie.Designer.cs">
-      <DependentUpon>form_Update_Movie.cs</DependentUpon>
-    </Compile>
-    <Compile Include="form_DeleteMovie.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="form_DeleteMovie.Designer.cs">
-      <DependentUpon>form_DeleteMovie.cs</DependentUpon>
+    <Compile Include="form_TicktSelling.Designer.cs">
+      <DependentUpon>form_TicktSelling.cs</DependentUpon>
     </Compile>
     <Compile Include="form_Tkt_BB.cs">
       <SubType>Form</SubType>
@@ -168,11 +151,11 @@
     <Compile Include="form_Tkt_BB.Designer.cs">
       <DependentUpon>form_Tkt_BB.cs</DependentUpon>
     </Compile>
-    <Compile Include="form_InsertMovie.cs">
+    <Compile Include="form_UpdateMovie.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form_InsertMovie.Designer.cs">
-      <DependentUpon>form_InsertMovie.cs</DependentUpon>
+    <Compile Include="form_UpdateMovie.Designer.cs">
+      <DependentUpon>form_UpdateMovie.cs</DependentUpon>
     </Compile>
     <Compile Include="main_Menu.cs">
       <SubType>Form</SubType>
@@ -188,8 +171,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="prototype_Database01DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>prototype_Database01DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="prototype_Database01DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>prototype_Database01DataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="about_Form.resx">
       <DependentUpon>about_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="currentState_Admin.resx">
+      <DependentUpon>currentState_Admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form_Admin.resx">
       <DependentUpon>form_Admin.cs</DependentUpon>
@@ -200,17 +196,8 @@
     <EmbeddedResource Include="form_appriciate.resx">
       <DependentUpon>form_appriciate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_currentState_Admin.resx">
-      <DependentUpon>form_currentState_Admin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="form_Customer.resx">
       <DependentUpon>form_Customer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="form_Hall_arrangement.resx">
-      <DependentUpon>form_Hall_arrangement.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="form_list.resx">
-      <DependentUpon>form_list.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form_loginSucs.resx">
       <DependentUpon>form_loginSucs.cs</DependentUpon>
@@ -221,32 +208,23 @@
     <EmbeddedResource Include="form_Rating.resx">
       <DependentUpon>form_Rating.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="form_Refresh.resx">
+      <DependentUpon>form_Refresh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form_Remarks.resx">
       <DependentUpon>form_Remarks.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_Stuff.resx">
-      <DependentUpon>form_Stuff.cs</DependentUpon>
+    <EmbeddedResource Include="form_SeatArrange.resx">
+      <DependentUpon>form_SeatArrange.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_stuff_table.resx">
-      <DependentUpon>form_stuff_table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="form_ticket_list.resx">
-      <DependentUpon>form_ticket_list.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_ticket_menu.resx">
-      <DependentUpon>Form_ticket_menu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="form_Update_Movie.resx">
-      <DependentUpon>form_Update_Movie.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="form_DeleteMovie.resx">
-      <DependentUpon>form_DeleteMovie.cs</DependentUpon>
+    <EmbeddedResource Include="form_TicktSelling.resx">
+      <DependentUpon>form_TicktSelling.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form_Tkt_BB.resx">
       <DependentUpon>form_Tkt_BB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form_InsertMovie.resx">
-      <DependentUpon>form_InsertMovie.cs</DependentUpon>
+    <EmbeddedResource Include="form_UpdateMovie.resx">
+      <DependentUpon>form_UpdateMovie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main_Menu.resx">
       <DependentUpon>main_Menu.cs</DependentUpon>
@@ -264,28 +242,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="cine_Database01DataSet.xsc">
-      <DependentUpon>cine_Database01DataSet.xsd</DependentUpon>
-    </None>
-    <None Include="cine_Database01DataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>cine_Database01DataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="cine_Database01DataSet.xss">
-      <DependentUpon>cine_Database01DataSet.xsd</DependentUpon>
-    </None>
-    <None Include="cine_Database01DataSet1.xsc">
-      <DependentUpon>cine_Database01DataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="cine_Database01DataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>cine_Database01DataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="cine_Database01DataSet1.xss">
-      <DependentUpon>cine_Database01DataSet1.xsd</DependentUpon>
-    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -300,7 +257,59 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="prototype_Database01DataSet.xsc">
+      <DependentUpon>prototype_Database01DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="prototype_Database01DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>prototype_Database01DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="prototype_Database01DataSet.xss">
+      <DependentUpon>prototype_Database01DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="prototype_Database01DataSet1.xsc">
+      <DependentUpon>prototype_Database01DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="prototype_Database01DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>prototype_Database01DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="prototype_Database01DataSet1.xss">
+      <DependentUpon>prototype_Database01DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Resources\cineplexMobile-Playbook-1-spk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="prototype_Database01.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
